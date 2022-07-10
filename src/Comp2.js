@@ -6,7 +6,7 @@ const Comp1 = () => {
     return (
         <div>
             {arr.map(item => {
-                return    <p key={item}>{item}</p>
+                return  <p key={item}>{item}</p>
             })}
         </div>
     )
